@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junaedul Fahim Dipu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><span id="j">Junaedul</span> Fahim</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="responsive-nav">
+        <div class="logo"><span id="j">Junaedul</span> Fahim</div>
+        <div class="responsive-menu">
+        <div class="responsive-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+                <li><a href="#profile" onclick="toogleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toogleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toogleMenu()">Skills</a></li>
+                <li><a href="#Contact" onclick="toogleMenu()">Contact</a></li>
+        </div>
+    </div>
+    </nav>
+    <section id="profile">
+        <div class="pic-container">
+            <img src="./DashImage.png" alt="Junaedul Fahim Profile Picture"/>
+        </div>
+        <div class="section-text">
+            <p class="section-text1">Hello I'm</p>
+            <h1 class="title">Junaedul Fahim</h1>
+            <p class="section-text2">Frontend Developer & Designer (UI/UX)</p>
+            <div class="button-container">
+                <button class="button-design" onclick="window.open('#')">Download CV</button>
+                <button class="button-design" onclick="location.href('#contact')">Contact Me</button>
+            </div>
+            <div class="social-container">
+                <img src="./Linkedin.png" 
+                alt="My LinLinkedin profile" 
+                class="icon" 
+                onclick="window.open('https://bd.linkedin.com/in/junaedulfahim')"
+                />
+                <img src="./Github.png" 
+                alt="My GitHub profile" 
+                class="icon" 
+                onclick="window.open('https://github.com/junaed15')"
+                />
+                <img src="./behance.png" 
+                alt="My Behance profile" 
+                class="icon2" 
+                onclick="window.open('https://www.behance.net/jonaedfahim15')"
+                />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section-text2">Get To Know More</p>
+        <p class="section-text3">About Me</p>
+        <div class="section2">
+            <div class="about-image">
+                <img src="./aboutpic.jpg" alt="My about" class="about-pic">
+            </div>
+            <div class="aboutDetailsContainer">
+              <div class="aboutContainers">
+                  <div class="info-about">
+                     <img class="skills" src="./Skillsicon.png" alt="skill">
+                     <h3>Skills</h3>
+                     <p>HTML, CSS, JavaScript, ReactJs, NodeJs<br>UI/UX: Figma, Adobe XD, Ai, Ps</p>
+                  </div>
+                  <div class="info-about">
+                      <img class="skills" src="./Eduaction icon.png" alt="skill">
+                       <h3>Eduaction</h3>
+                      <p class="diu" onclick="window.open('https://daffodilvarsity.edu.bd/')">B.Sc.in SWE(Software Egineering)<br>Daffodil International University
+                       </p>
+                 </div>
+             </div>
+             <div class="textContainer"><p>Hello there! My name is Junaedul Fahim Dipu. Currently I'm studying at Daffodil International University in Department of Software Engineering.
+                I have learn the core web development languages as html,css,JavaScript & some frameworks as ReactJs and NodeJs. I also know UI/UX desiging very well. 
+                I know the desiging Software as Figma, Adobe XD and Ai, Ps
+            </p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <p class="section-text2">Explore My</p>
+        <p class="section-text3">Skills</p>
+            <div class="experience-details">
+                <div class="about-containers">
+                    <div id="exp">
+                        <h2 class="experience-subtitle">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./experienceico.png" alt="ExperienceIcon" 
+                                class="cheakIcon"/>
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./experienceico.png" alt="ExperienceIcon" 
+                                class="cheakIcon"/>
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./experienceico.png" alt="ExperienceIcon" 
+                                class="cheakIcon"/>
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./experienceico.png" alt="ExperienceIcon" 
+                                class="cheakIcon"/>
+                                <div>
+                                    <h3>WordPress</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./experienceico.png" alt="ExperienceIcon" 
+                                class="cheakIcon"/>
+                                <div>
+                                    <h3>ReactJs</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div id="exp2">
+                        <h2 class="experience-subtitle">Frontend Design</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./experienceico.png" alt="ExperienceIcon" 
+                                class="cheakIcon"/>
+                                <div>
+                                    <h3>Figma</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./experienceico.png" alt="ExperienceIcon" 
+                                class="cheakIcon"/>
+                                <div>
+                                    <h3>Adobe XD</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./experienceico.png" alt="ExperienceIcon" 
+                                class="cheakIcon"/>
+                                <div>
+                                    <h3>Adobe Ai</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./experienceico.png" alt="ExperienceIcon" 
+                                class="cheakIcon"/>
+                                <div>
+                                    <h3>Adobe Ps</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./experienceico.png" alt="ExperienceIcon" 
+                                class="cheakIcon"/>
+                                <div>
+                                    <h3>Prototyping</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="Contact">
+        <p class="section-text2" >Get in Touch</p>
+        <h3 class="section-text3">Contact Me</h3>
+        <div class="contactinfo">
+            <div class="contactinfo1">
+                <img src="./Mailicon.png" alt="mail icon"
+                class="contact-icon"/>
+                <p><a href="mailto:jonaedul.work15@yahoo.com">jonaedul.work15@gmail.com</a></p>
+            </div>
+            <div class="contactinfo1">
+                <img src="./Linkedin.png" alt="mail icon"
+                class="contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/junaedulfahim/">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="navlinks">
+                <ul class="nav-links">
+                    <li><a href="#profile">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Junaedul Fahim. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
