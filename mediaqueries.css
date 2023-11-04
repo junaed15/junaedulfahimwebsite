@@ -1,3 +1,30 @@
+@media screen and (max-width: 1600px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .aboutContainers{
+        flex-wrap: wrap;
+    }
+    #experience{
+        height: 120vh;
+    }
+
+}
+@media screen and (max-width: 1460px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .aboutContainers{
+        flex-wrap: wrap;
+    }
+    #experience{
+        height: 120vh;
+    }
+
+}
+
 @media screen and (max-width: 1400px){
     #profile{
         height: 83vh;
@@ -5,6 +32,9 @@
     }
     .aboutContainers{
         flex-wrap: wrap;
+    }
+    #experience{
+        height: 120vh;
     }
 
 }
